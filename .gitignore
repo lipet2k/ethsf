@@ -118,6 +118,4 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-.hello
-.z
 .xyz
