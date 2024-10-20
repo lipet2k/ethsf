@@ -2,7 +2,7 @@
 
 
 <div align="center">
-  ![l](pqp.png)
+  <img src="pqp.png">
 </div>
 
 ### Background
