@@ -14,5 +14,5 @@ Post-quantum signatures are digital signatures designed to be secure against att
 
 ### Run
 ```
-
+docker compose up --build
 ```
