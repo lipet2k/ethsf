@@ -10,7 +10,7 @@ Post-quantum signatures are a crucial aspect of post-quantum cryptography (PQC),
 In quantum computing, a possible Q-day attack would be a hypothetical cyberattack, similar to zero-day vulnerabilities in the security field. If this hypothetical were to become reality, the signatures created would verify the validity of these onchain cryptographic encryptions.
 
 ### Idea
-Post-quantum signatures are digital signatures designed to be secure against attacks from quantum computers. These signatures rely on mathematical problems that are believed to be difficult for quantum computers to solve. The objective is to create a signature scheme that allows a signer to produce a signature using a private key while enabling anyone with access to the corresponding public key to verify the authenticity of the signature without revealing the private key.
+Post-quantum signatures are digital signatures designed to be secure against attacks from quantum computers. These signatures rely on mathematical problems that are believed to be difficult for quantum computers to solve. The objective is to create a signature scheme that allows a signer to produce a signature using a private key while enabling anyone with access to the corresponding public key to verify the authenticity of the signature without revealing the private key. We implemented a post-quantum lattice-based digital signature on a trusted execution environment as a proof of concept of PQ in Web3.
 
 ### Run
 ```
