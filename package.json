@@ -1,14 +1,26 @@
 {
-  "name": "hackathon",
+  "name": "nodejs",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
+  "license": "MIT",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx @dotenvx/dotenvx run -- tsx src/index.ts",
+    "build": "node esbuild.config.js",
+    "test": "npx @dotenvx/dotenvx run -- tsx src/vanilla.ts"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "@lit-protocol/lit-node-client-nodejs": "^6.11.0"
+    "@dotenvx/dotenvx": "^0.44.1",
+    "@lit-protocol/auth-helpers": "^6.11.0",
+    "@lit-protocol/constants": "^6.11.0",
+    "@lit-protocol/lit-node-client": "^6.11.0",
+    "@noble/post-quantum": "^0.2.0",
+    "crypto": "^1.0.1",
+    "ethers": "^5.7.2"
+  },
+  "devDependencies": {
+    "esbuild": "^0.24.0",
+    "tsc": "^2.0.4",
+    "tsx": "^4.12.0"
   }
 }
