@@ -18,4 +18,4 @@ docker compose up --build
 ```
 
 
-![l](ajatai.png)
+![l](ajtai.png)
