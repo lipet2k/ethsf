@@ -14,3 +14,12 @@ In quantum computing, a possible Q-day attack would be a hypothetical cyberattac
 ### Problem
 
 ### Idea
+
+### Run project
+
+
+      npm i
+      npm run start
+
+
+  
