@@ -1,7 +1,7 @@
 # Post-Quantum Proofs
 
 
-[![l](ajtai.png]
+[![l](ajtai.png)
 
 ### Background
 
