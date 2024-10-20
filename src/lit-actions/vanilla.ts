@@ -3,31 +3,31 @@
  * 
  * inject ./buffer.shim.js
  */
-import crypto from 'crypto';
+// import { createVerify } from 'crypto';
 
-(async () => {
-  const res = await Lit.Actions.runOnce({
-    waitForResponse: true,
-    name: '003-vanilla-test'
-  }, async () => {
-    const startTime = Date.now(); // Get the current time in milliseconds
-    const verify = crypto.createVerify('SHA256');
-    verify.update(message);
-    verify.end();
+// (async () => {
+//   const res = await Lit.Actions.runOnce({
+//     waitForResponse: true,
+//     name: '003-vanilla-test'
+//   }, async () => {
+//     const startTime = Date.now(); // Get the current time in milliseconds
+//     const verify = createVerify('SHA256');
+//     verify.update(message);
+//     verify.end();
     
-    if (verify.verify(publicKey, signature, 'hex')) {
-        const endTime = Date.now();
-        return endTime - startTime;
-    } else {
-        const endTime = Date.now();
-        return endTime - startTime;
-    }
-  });
+//     if (verify.verify(publicKey, signature, 'hex')) {
+//         const endTime = Date.now();
+//         return endTime - startTime;
+//     } else {
+//         const endTime = Date.now();
+//         return endTime - startTime;
+//     }
+//   });
 
-  Lit.Actions.setResponse({
-    response: JSON.stringify({
-      success: true,
-      message: res,
-    })
-  });
-})();
+//   Lit.Actions.setResponse({
+//     response: JSON.stringify({
+//       success: true,
+//       message: res,
+//     })
+//   });
+// })();
