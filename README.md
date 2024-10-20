@@ -1,7 +1,9 @@
 # Post-Quantum Proofs
 
 
-![l](pqp.png)
+<div align="center">
+  <img src="pqp.png">
+</div>
 
 ### Background
 Post-Quantum Proofs (PQP) aims to build a quantum resistant future. 
